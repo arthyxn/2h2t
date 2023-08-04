@@ -3,9 +3,9 @@
     padding: 0;
 }
 :root {
-   --cor-fundo:rgb(128, 38, 38);
-   --cor-fonte: rgb(20, 20, 20);
-   --cor-hover: rgb(71, 112, 165);
+   --cor-fundo:rgb(188, 93, 252);
+   --cor-fonte: rgb(255, 73, 240);
+   --cor-hover: rgb(255, 0, 170);
 }
 a {
  text-decoration-color: rgb(145, 98, 138);
@@ -84,7 +84,7 @@ ul{
 @media screen and (min-width: 768px){
    .menu{
     height: 100px;
-    background-color: rgb(23, 114, 94);
+    background-color: rgb(0, 255, 200);
     text-align: center;
     font-size: 35px;
    }
@@ -92,7 +92,7 @@ ul{
 @media screen and (min-width: 1280px){
     .menu{
         height: 100px;
-        background-color: rgb(22, 33, 95);
+        background-color: rgb(0, 38, 255);
         color: #fff;
         font-size: 64px;
         text-align: center;
