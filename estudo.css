@@ -1,37 +1,37 @@
 .preto {
     width: 100ww;
-    background-color: black;
+    background-color: rgb(255, 0, 191);
     color: white;
     grid-area: preto;
     height: 10vh;
 }
 .rosa{
     width: 100ww;
-    background-color: pink;
+    background-color: rgb(255, 0, 98);
     grid-area: rosa;
     height: 20vh;
 }
 .vermelho{
     width: 100ww;
-    background-color: red;
+    background-color: rgb(140, 0, 255);
     grid-area: vermelho;
     height: 40vh;
 }
 .verde {
     width: 100ww;
-    background-color: green;
+    background-color: rgb(0, 183, 255);
     grid-area: verde;
     height: 30vh;
 }
 .cinza {
     width: 100ww;
-    background-color: #333;
+    background-color: #ff00aa;
     grid-area: cinza;
     height: 70vh;
 }
 .azul {
     width: 100ww;
-    background-color: blue;
+    background-color: rgb(98, 0, 255);
     grid-area: azul;
     height: 70vh;
 }
