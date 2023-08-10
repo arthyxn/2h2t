@@ -22,6 +22,12 @@ ul{
 .logo {
     display: inline-block;
 }
+
+#logo{
+    height: 16vh;
+    width: 10vw;
+}
+
 .nav {
     width: 100vw;
     height: 100vh;
@@ -100,7 +106,7 @@ ul{
 }
 @media screen and (min-width: 1280px) {
     .menu{
-        height: 150px;
+        height: 100px;
         background-color: rgb(211, 211, 211);
         color: black;
         font-size: 64px;
