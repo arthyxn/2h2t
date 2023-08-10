@@ -3,12 +3,12 @@
     padding: 0;
 }
 :root {
-   --cor-fundo:rgb(188, 93, 252);
-   --cor-fonte: rgb(255, 73, 240);
-   --cor-hover: rgb(255, 0, 170);
+    --cor-fundo: rgb(255, 79, 176);
+    --cor-fonte: #eaa3f8;
+    --cor-hover: rgb(255, 12, 182);
 }
 a {
- text-decoration-color: rgb(145, 98, 138);
+    text-decoration: none;
 }
 ul{
     list-style: none;
@@ -22,14 +22,9 @@ ul{
 .logo {
     display: inline-block;
 }
-#logo{
-    height: 16vh;
-    width: 10vw;
-}
-
-.nav{
+.nav {
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     position: fixed;
     background-color: var(--cor-fundo);
     overflow: hidden;
@@ -77,24 +72,38 @@ ul{
 .side-menu{
     display: none;
 }
+ .side-menu:checked ~ nav {
+    max-height: 100%;
+
+ }
+.side-menu:checked ~ .hamb .hamb-line{
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after{
+    transform: rotate(45deg);
+    top:0;
+}
 .rodape{
     width: 100%;
     text-align: center;
 }
-@media screen and (min-width: 768px){
-   .menu{
-    height: 100px;
-    background-color: rgb(0, 255, 200);
-    text-align: center;
-    font-size: 35px;
-   }
-}
-@media screen and (min-width: 1280px){
+@media  screen and ( min-width: 768px) {
     .menu{
         height: 100px;
-        background-color: rgb(0, 38, 255);
-        color: #fff;
-        font-size: 64px;
-        text-align: center;
-       }
+        background-color: rgb(138, 137, 137);
+        color: black
+    }
 }
+@media screen and (min-width: 1280px) {
+    .menu{
+        height: 150px;
+        background-color: rgb(211, 211, 211);
+        color: black;
+        font-size: 64px;
+    }
+}
+    
