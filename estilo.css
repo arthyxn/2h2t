@@ -3,12 +3,12 @@
     padding: 0;
 }
 :root {
-    --cor-fundo: rgb(255, 79, 176);
-    --cor-fonte: #eaa3f8;
-    --cor-hover: rgb(255, 12, 182);
+   --cor-fundo:rgb(255, 79, 176);
+   --cor-fonte: #eaa3f8;
+   --cor-hover: rgb(255, 12, 182);
 }
 a {
-    text-decoration: none;
+ text-decoration-color: rgb(145, 98, 138);
 }
 ul{
     list-style: none;
@@ -22,15 +22,14 @@ ul{
 .logo {
     display: inline-block;
 }
-
 #logo{
     height: 16vh;
     width: 10vw;
 }
 
-.nav {
+.nav{
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     position: fixed;
     background-color: var(--cor-fundo);
     overflow: hidden;
@@ -45,7 +44,7 @@ ul{
 }
 .nav {
     max-height: 0;
-    transition: max-height   .5s ease-out; 
+    transition: max-height  .5s ease-out; 
 }
 .hamb {
     cursor: pointer;
@@ -53,15 +52,15 @@ ul{
     padding: 35px 20px;
 }
 .hamb-line{
-    background-color: var(--cor-fonte);
+    background-color: white;
     display: block;
     height: 2px;
     position: relative;
     width: 24px;
 }
-.hamb-ling::before,
-.hamb-ling::after{
-    background-color: var(--cor-fonte);
+.hamb-line::before,
+.hamb-line::after{
+    background-color: white;
     content: '';
     display: block;
     height: 100%;
@@ -94,22 +93,32 @@ ul{
     top:0;
 }
 .rodape{
-    width: 100%;
     text-align: center;
 }
-@media  screen and ( min-width: 768px) {
-    .menu{
-        height: 100px;
-        background-color: rgb(138, 137, 137);
-        color: black
-    }
+@media screen and (min-width: 820px){
+  .nav{
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+    background-color: transparent;
+  }
+  .menu li{
+    float: left;
+  }
+  .menu a:houver{
+    background-color: transparent;
+  }    
+  .hamb{
+    display: none;
+  }
+  .menu li {
+    text-decoration: underline;
+  }
 }
-@media screen and (min-width: 1280px) {
-    .menu{
-        height: 100px;
-        background-color: rgb(211, 211, 211);
-        color: black;
-        font-size: 64px;
-    }
+
+
+@media screen and (min-width: 1028px){
+   
 }
-    
