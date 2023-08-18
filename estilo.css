@@ -3,12 +3,12 @@
     padding: 0;
 }
 :root {
-   --cor-fundo:rgb(255, 79, 176);
-   --cor-fonte: #eaa3f8;
-   --cor-hover: rgb(255, 12, 182);
+   --cor-fundo:rgb(197, 58, 135);
+   --cor-fonte: #640054;
+   --cor-hover: rgb(255, 89, 205);
 }
 a {
- text-decoration-color: rgb(145, 98, 138);
+ text-decoration-color: rgb(255, 96, 231);
 }
 ul{
     list-style: none;
